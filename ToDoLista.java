@@ -26,7 +26,7 @@ public class ToDoLista {
         }
     }
     public static int menu() {
-		int choice;
+		int op;
 		Scanner scanner = new Scanner(System.in);
         System.out.println();
         System.out.println("            Menu");
@@ -38,8 +38,8 @@ public class ToDoLista {
 		System.out.println("|---------------------------");
         System.out.println();
         System.out.print("Insira sua escolha: ");
-        choice = scanner.nextInt();
-        return choice;
+        op = scanner.nextInt();
+        return op;
     }
     public static void exibeLista() {
         System.out.println();    
